@@ -90,8 +90,7 @@
 											$query = "SELECT `status` FROM `application` WHERE job_id={$id} AND employee_id={$id_fetch['employee_id']}";
 											$runQuery = mysqli_query($dbcon, $query);
 											if($runQuery == FALSE) {
-												printf("error: %s\n", mysqli_error($dbcon));
-												die("SQL query failed...");
+												printf("You haven't applied...");
 											}
 											$numResult = mysqli_num_rows($result);
 											if ($numResult == 0) {
