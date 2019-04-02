@@ -49,8 +49,27 @@ body{
 
 }
 
-
 .body {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* overflow-y: hidden;   */
+  /* opacity: 0.5; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/logins.jpg');
+}
+
+.signups-body {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* overflow-y: hidden;   */
+  /* opacity: 0.5; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/signups.jpeg');
+}
+
+.signupp-body {
   /* display: flex; */
   /* flex-direction: column; */
   /* overflow-y: hidden;   */
@@ -73,9 +92,10 @@ body{
   border-right: #00695c;
   border-right-width: 1px;
   opacity: 0.2;
-  height:inherit;
+  height:650px ;
   background-image: url('../img/seeker-image.jpg');
   background-repeat: no-repeat;
+  background-size: cover;
   transition: opacity 0.5s ease-in-out;
   display: flex;
   flex-direction: column;
@@ -85,11 +105,12 @@ body{
   -webkit-transition-delay: 1s;
   padding: 50px;
   opacity: 0.2;
-  height:inherit;
+  height:650px;
   background-image: url('../img/poster-image.jpg');
   background-repeat: no-repeat;
   transition: opacity 0.5s ease-in-out;
   display: flex;
+  background-size: cover;
   flex-direction: column;
 }
 #seeker:hover {
@@ -123,9 +144,35 @@ body{
   height: 500px;
 }
 
+
+#signup-container {
+  vertical-align: -webkit-baseline-middle;
+}
+
+#signup-parent {
+  height: 600px;
+  overflow: hidden;
+  /* background-image: url('../img/logins.jpg'); */
+  /* background-blend-mode: hard-light; */
+
+}
+
+.registration {
+  width: 60%;
+  margin: 50px;
+  padding: 50px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  border-width: 1px;
+  vertical-align: middle;
+  height: 500px;
+}
+
 .form-field {
   width: 100%;
   height: 38px;
+  max-width: 350px;
   margin-top: 20px;
   margin-bottom: 10px: 
   padding: 5px;
@@ -133,6 +180,32 @@ body{
   text-emphasis-color: black;
   text-align: center;
   background: lightgray ;
+  float: left;
+}
+
+.signupff {
+  margin: 2px;
+  width: 60%;
+  height: 38px;
+  max-width: 350px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px; 
+  padding: 5px;
+  border-radius: 5px;
+  text-emphasis-color: black;
+  text-align: center;
+  background: lightgray ;
+  float: left;
+}
+
+.signupff:hover {
+  opacity: 0.9;
+}
+
+.signupff: active {
+  opacity: 0.9;
 }
 
 .form-field:focus {
@@ -198,4 +271,62 @@ body{
   float:left;
   width: 20%;
   margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.col-centered{
+  margin:auto;
+}        
+.profile-div{
+  margin-top: 20px !important;
+  max-width: 1000px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;  
+}
+.cd-header{
+  font-weight: bold;
+  font-size: 18px;
+}
+.cd-body{
+  font-size: 15px;          
+}
+.sml-headings{
+  display: inline-block;
+  color: #343A40;
+  font-weight: 500;
+}
+.sml-ans{
+  display: inline-block;
+}
+.btn-width{
+  width: 100px;
+}
+.bottom-margin-forms{
+  margin-bottom: 10px;
+}
+.user-info{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.for-job{
+  font-size:17px;
+  margin-bottom: 5px;
+}
+.letter{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.applications{
+  padding: 40px !important;
 }

@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
-        <script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
 		<meta charset="utf-8">
 		<title>Match your skill</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,19 +12,14 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
-
-	<body class="body">
+	<body style="height:auto;">
 	<nav class = "navbar navbar-expand-md navbar-dark bg-dark">
-
-<a class = "navbar-brand" href = "#">Job Finder</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-		<span class="navbar-toggler-icon"></span>
-</button>
-
-<div class = "collapse navbar-collapse" id = "navbarNav">
-
+		<a class = "navbar-brand" href = "#">Job Finder</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class = "collapse navbar-collapse" id = "navbarNav">
 		<ul class = "navbar-nav">
-
 				<li class = "nav-item">
 						<a class = "nav-link" href = "#">Home</a>
 				</li>
@@ -41,10 +36,9 @@
 			<a href = "signup.php">Signup</a>
 		</center> -->
 
-		<div class="main-body" style="margin:0; padding:0;">
-		<div id="wrapper">
+		<div class="main-body" style="margin:0; padding:0; height:650px;">
 			<div class="container-fluid">
-				<div class="row" style="height: inherit;">
+				<div class="row" style="height: 650px">
            <div id="seeker" class="col-md-6 col-sm-6 col-xs-0 content" onclick="openSeekerLogin()">
 						<h1> I need Employee </h1>
 					</div>
@@ -53,8 +47,12 @@
 						<h1> I need employee </h1>
           </div>
         </div>
-			</div>
 		</div>
+		</div>
+		<div class="main-body">
+			<div class="container-fluid">
+					
+			</div>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

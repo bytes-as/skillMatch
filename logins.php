@@ -1,5 +1,11 @@
 <? php
-    require_once "dbconnect.php";
+	session_start();
+		require_once "dbconnect.php";
+		if($_SESSION['auth']) {
+			printf("Hello world this is the logged in page...\n");
+			die("loggedin page");
+			// header('location:job.php'):
+		}
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -32,7 +38,7 @@
 						<a class = "nav-link" href = "about.php">About Us</a>
 				</li>
 				<li class = "nav-item">
-						<a class = "nav-link" href = "registers.php">SignUp</a>
+						<a class = "nav-link" href = "signups.php">SignUp</a>
 				</li>
 				<li class = "nav-item">
 						<a class = "nav-link" href = "index.php">Not a Job seeker</a>
